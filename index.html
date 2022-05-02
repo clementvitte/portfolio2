@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title> 
+        <meta name="description" content="Portfolio de Clément VITTE - Etudiant a l'ETNA - Developpeur web">
+        <link rel="stylesheet" href="./css/global.css" class="css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <script src="./js/global.js" defer></script>
+
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container d-flex">
+                <div class="logo">
+                    Clément VITTE
+                </div>
+                <nav class="navbar">
+                    <ul class="menu list-unstyled">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">A propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="right">
+                    <ul class="socials list-unstyled">
+                        <li>
+                            <a href="https://www.linkedin.com/in/vitteclement" target="_blank">
+                                <svg class="icone linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/ClementVitte" target="_blank">
+                                <svg class="icone twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/clemxnt.vit/" target="_blank">
+                                <svg class="icone instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                     <button class="burger"><span class="bar"></span></button>
+                </div>
+            </div>
+        </header>
+
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="grid">
+                    <div class="hero__item">
+                        <span>Etudiant en développement web</span>
+                        <h1 class="title">Bonjour, je suis Clément VITTE</h1>
+                    </div>
+                    <div class="hero__item">
+                        <div class="hero__avatar">
+                            <img src="./images/avatar.png" alt="Clément vitte - developpeur web">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item">
+                        <img widt="560" height="453" src="./images/web-dev.jpg" alt="clement vitte - developpeur web">
+                    </div>
+                    <div class="grid__item">
+                        <h2 class="section-title">A propos</h2>
+                        <h3>Qui suis-je ?</h3>
+                        <p>Bonjour, je m'appel Clément VITTE et je suis un étudiant dans une école de développement web à l'<strong>ETNA</strong>.</p>
+                        <p>Lorsque je suis arrivé dans cette école, j'avais déja quelque notion de développement web ainsi que des bases en programmation. J'ai pu développer mes connaissances grace aux différents projets réalisés que vous pourrez regarder plus bas.</p>
+                        <p>Je suis a l'heure actuelle, a la recherche d'une alternance dans ce domaine qui est le développement web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Mes comptétences</h2>
+                    <p>Grace aux différents projets que j'ai pu réaliser dans mon école, mes compétences ainsi que mes connaissances ont pu se développé pour en avoir une bonne maîtrise.</p>
+                    <p>Voici donc les différente compétence que j'ai pu acquérir.</p>
+                </div>
+                <div class="grid">
+                    <div class="grid__item">
+                        <h3>Domaine de compétence</h3>
+                        <ul class="list-unstyled">
+                            <li>
+                                <h4>Développement Web</h4>
+                                <p>Création d'un site web</p>
+                            </li>
+                            <li>
+                                <h4>Programmation</h4>
+                                <p>Comptétences notamment dans plusieurs langages</p>
+                            </li>
+                            <li>
+                                <h4>Gestion de Base de Données</h4>
+                                <p>Base de Donnée MySQL</p>
+                            </li>
+                            <li>
+                                <h4>Application mobile</h4>
+                                <p>Utilisation de Android Studio</p>
+                            </li>
+                            <li>
+                                <h4>Création de jeu</h4>
+                                <p>Création de jeux vidéo sur GODOT</p>
+                            </li>
+                            <li>
+                                <h4>VLC</h4>
+                                <p>Utilsation de VLC pour vidéo ou audio</p>
+                            </li>
+                            <li>
+                                <h4>Outils webdesign</h4>
+                                <p>Pour la Création des différente tache a faire ainsi que pour du prototyping</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__item">
+                        <h3>Compétence de développement</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="80">HTML</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="70">CSS</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="65">JavaScript</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="55">PHP</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="75">MySQL</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="80">Python</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="60">GDScript</div>
+                        </div>
+
+                        <h3>Compétence graphique</h3>
+                        <div class="progressbar">
+                            <div class="bar" data-width="90">Figma</div>
+                        </div>
+                        <div class="progressbar">
+                            <div class="bar" data-width="80">Trello</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Portfolio</h2>
+                    <p>Voici donc les différents projets que j'ai pu accomplir au cours de mes études.</p>
+                </div>
+                <ul class="grid portfolio-filters list-unstyled">
+                    <li class="grid__item">
+                        <a href="#" class="active" data-filters="all">Tous les projets</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filters="web">Développement web</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filters="jeux">Jeux</a>
+                    </li>
+                    <li class="grid__item">
+                        <a href="#" data-filters="programmation">programmation</a>
+                    </li>
+                </ul>
+                <div class="grid">
+                    <div class="grid__item">
+                        <div class="card" data-category="web">
+                            <img src="./images/catalogue.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">Liberty commerce</h3>
+                                <p class="category">Développement web</p>
+                            </div>
+                            <div class="card__overlay">
+                                <a href="#" class="card__link" data-id="modal-1">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-1">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/produit.png" alt="projet de la ville" class="card__image">
+                                            <img src="./images/register.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Liberty Commerce</h4>
+                                            </br>
+                                            <p>Ce projet consistait a créer un site de e-commerce</p>
+                                            </br>
+                                            <p>Pour ce faire, notre site devait avoir certaines fonctionnalité de base d'un site de e-commerce.</p>
+                                            <p>Le site devait contenir une page "catalogue" où l'on peut voir tout les produits du site. Il devait aussi y avoir un système d'authentification, chaque utilisateur doit se créer un compte.</p>
+                                            <p>Un systeme de panier est aussi présent sur le site, et chaque produit a une page de description.</p>
+                                            <p>Pour effectuer ce projet, les technologies et les langages utilisé sont:</p>
+                                            <ul>
+                                                <li><strong>HTML</strong></li>
+                                                <li><strong>CSS</strong></li>
+                                                <li><strong>MySQL</strong></li>
+                                            </ul>
+                                            </br>
+                                            <p>Le projet a été réalisé sur le framework <strong>Laravel</strong>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="jeux">
+                            <img src="./images/clickergame.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">Clicker game</h3>
+                                <p class="category">Jeux</p>
+                            </div>
+                            <div class="card__overlay">
+                                 <a href="#" class="card__link" data-id="modal-2">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-2">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/clickergame.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Clicker game</h4>
+                                            </br>
+                                            <p>Comme son nom l'indique, le but de ce projet était de créer un clikergame.</p>
+                                            <p>Ce jeu contient un systeme de sauvegarde et s'un système de boutique. A chaque fois que l'on obtient assez d'argent, on peut acheter une amélioration dans la boutique du jeu.</p>
+                                            </br>
+                                            <p>Pour créer ce jeu nous avons utilisé différent langages comme:</p>
+                                            <ul>
+                                                <li><strong>HTML</strong></li>
+                                                <li><strong>CSS</strong></li>
+                                                <li><strong>JavaScript</strong></li>
+                                                <li><strong>MySQL</strong></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__item">
+                        <div class="card" data-category="programmation">
+                            <img src="./images/codewars.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">Codewars et MyLs</h3>
+                                <p class="category">Programmation</p>
+                            </div>
+                            <div class="card__overlay">
+                                 <a href="#" class="card__link" data-id="modal-3">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-3">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/codewars.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Code Wars</h4>
+                                            </br>
+                                            <div><strong>Qu'est ce que Code Wars ?</strong></div>
+                                            <p>Code wars est un site où l'on peut apprendre différents langages, dans mon cas j'ai acquis des compétence en <strong>Python</strong>.</p>
+                                            <p>Grace a ces exerices je peux maintenant programmer avec ce langages et le comprendre.</p>
+                                            </br>
+                                            <p>Pour continuer dans la programmtion, j'ai effectuer un projet qui avait pour but de recréer les options de la commande ls.</p>
+                                            <p>Pour ce faire nous avons utlisé le C. Nous avons réussi a recréer la commande mais aussi quelques une de ses option comme le ls -l ou le ls -a</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="web">
+                            <img src="./images/vlc.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">VLC</h3>
+                                <p class="category">logiciel</p>
+                            </div>
+                            <div class="card__overlay">
+                                 <a href="#" class="card__link" data-id="modal-4">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-4">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/vlc.png" alt="projet de la ville" class="card__image">
+                                            <img src="./images/vlc2.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">VLC</h4>
+                                            </br>
+                                            <p><strong>Qu'est ce que VLC ?</strong></p>
+                                            <p>VLC est un lecteur et un framework de vidéo et d'audio de code ouvert compatible avec un grand numéro de format de dossier multimedia.</p>
+                                            </br>
+                                            <p>Le but de se projet était de nous faire découvrir ce logiciel et a nous apprendre a l'utilisé. Lors de ce projet j'ai pu apprendre a appliqué des filtre vidéo tel que le gaussianblur, qui est un flou.</p>
+                                            <p>Nous avons aussi pu apprendre a ciblé une zone en particulier sur l'image d'une vidéo grace au pixel.</p>
+                                            <p>Nous avons utilisé VLC sur une VM (virtual Machine) sous debian 10.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="jeux">
+                            <img src="./images/jeu_chambre.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">Jeu roguelike</h3>
+                                <p class="category">Jeux</p>
+                            </div>
+                            <div class="card__overlay">
+                                 <a href="#" class="card__link" data-id="modal-5">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-5">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/jeu_chambre.png" alt="projet de la ville" class="card__image">
+                                            <img src="./images/lvl1_jeu.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Jeu Roguelike</h4>
+                                            </br>
+                                            <p>Ce projet était un sujet de code camps, c'est a dire que plusieurs groupe travaillait sur un meme sujet et le meilleur projet gagne a la fin du code camps.</p>
+                                            <p>Le but de ce projet était de nous faire découvrir l'univers du jeu vidéo. Le projet était simple, il fallait créer un jeu de type roguelike et avoir certaine fonctionnalité.</p>
+                                            <p>Les fonctionnalité les plus importantes étaient les mouvements du personnages, avoir une animation d'attaque et l'action d'attaque aussi. Il fallait aussi avoir au moins 5 niveaux et avoir un HUD</p>
+                                            <p>Lors de ce projet, nous avons réussi a répondre a toutes les demandes du sujet.</p>
+                                            </br>
+                                            <p>Pour la réalisation de ce projet nous avons utilisé le logiciel <strong>GODOT</strong> et on a utilisé du <strong>GDScript</strong> comme langage.</p>
+                                            <p>Toutes les parties du projet ont été fait par nous même, les sprites du personnage et des ennemies aussi.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <div class="card" data-category="programmation">
+                            <img src="./images/restaurant_advisor.png" alt="projet de la ville" class="card__image">
+                            <div class="card__inner"> 
+                                <h3 class="card__title">Restaurant Advisor</h3>
+                                <p class="category">Application mobile</p>
+                            </div>
+                            <div class="card__overlay">
+                                 <a href="#" class="card__link" data-id="modal-6">+</a>
+                            </div>
+                        </div>
+                        <div class="modal" id="modal-6">
+                            <button class="modal__close">&times;</button>
+
+                            <div class="modal__content">
+                                <div class="container">
+                                    <div class="grid">
+                                        <div class="grid__item">
+                                            <img src="./images/restaurant_advisor2.png" alt="projet de la ville" class="card__image">
+                                            <img src="./images/restaurant_advisor3.png" alt="projet de la ville" class="card__image">
+                                        </div>
+                                        <div class="grid__item">
+                                            <h4 class="modal__title h2">Restaurant Advisor</h4>
+                                            </br>
+                                            <p>Ce projet consistait a créer une application mobile qui répertoriai des réstaurants sur une page d'accueil. On pouvait aussi voir une déscription de chaque restaurant, donc leur menu et leur prix</p>
+                                            <p>Pour ce faire nous avons du apprendre a créer et a utilisé une API.</p>
+                                            </br>
+                                            <p>Pour ce projet nous avons utilisé différents langage et logiciel tel que:</p>
+                                            <ul>
+                                                <li><strong>HTML</strong></li>
+                                                <li><strong>CSS</strong></li>
+                                                <li><strong>Android Studio</strong></li>
+                                                <li><strong>Laravel</strong></li>
+                                                <li><strong>Postman</strong></li>
+                                            </ul>
+                                            <p>La création de l'API a été faites sur <strong>Laravel</strong>, donc la gestion de toutes les routes et des controlleurs.</p>
+                                            <p>Pour créer le design des pages web, nous avons utilisé le <strong>HTML</strong> et le <strong>CSS</strong>.</p>
+                                            <p>Et pour tester notre API, nous avons utilisé Postman.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <br class="section-header">
+                    <h2 class="section-title">Contact</h2>
+                    <p>Pour me contacter, vous pouvez me joindre sur mes résaux sociaux ou grace au mail ci-dessous.</p>
+                    </br>  
+                    <p>Mail : vitte_c@etna-alternance.net</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item">
+                        <p>Clément VITTE</p>
+                    </div>
+                    <div class="grid__item">
+                        <ul class="socials list-unstyled">
+                            <li>
+                                <a href="https://www.linkedin.com/in/vitteclement" target="_blank">
+                                    <svg width="18" class="icone-linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/ClementVitte" target="_blank">
+                                    <svg width="18" class="icone-twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/clemxnt.vit/" target="_blank">
+                                    <svg width="18" class="icone-instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__item">
+                        <p>Copyright © 2021 nom du site. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+    
+</html>
