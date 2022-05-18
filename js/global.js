@@ -45,8 +45,6 @@ function tabsFilters() {
             } else {
                 projet.parentNode.classList.remove('hide');
             }
-
-            //console.log(projet);
         });
     }
 
